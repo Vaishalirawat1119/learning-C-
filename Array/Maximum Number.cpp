@@ -11,9 +11,7 @@ int main(){
     for(int i=0; i<size; i++){
         if(arr[i] > maxi){
             maxi = arr[i];
-
         }
-        
     
     }
     cout<<"Maximum value is: "<<maxi<<endl;

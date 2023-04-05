@@ -7,9 +7,9 @@ int main(){
     int sum=0;
     
 
-    for(int i=0; i<n; i++){
+    for(int i=0; i<n; i++)
         sum=sum+arr[i];
-    }
+    
     cout<<"The sum of the array is: "<<sum<<endl;
     return 0;
     
